@@ -13,5 +13,5 @@ int main(){
 		p=SI+p;
 	}
 	printf("%d",c);
-	
+	return 0;
 }
