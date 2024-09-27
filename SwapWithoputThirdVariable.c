@@ -11,4 +11,6 @@ int main(){
 	printf("Value of a = %d \n",a);
 	printf("Value of b = %d",b);
 	
+	return 0;
+	
 }
