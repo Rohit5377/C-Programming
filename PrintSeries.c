@@ -1,15 +1,17 @@
 #include<stdio.h>
-int sum(int n){
+void print(int n){
     if(n==0){
-        return 0;
+        return ;
     }
-    return n%10+sum(n/10);
+    print(n-1);
+    printf("%d\n",n);
+    return;
 }
 
 int main(){
     int n;
     printf("Enter the range\n");
     scanf("%d",&n);
-    printf("Sum = %d",sum(n));
+    print(n);
     return 0;
 }
